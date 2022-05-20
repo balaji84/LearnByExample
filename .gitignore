@@ -1,0 +1,92 @@
+#Derived binaries
+target
+test-output
+[Bb]in
+[Bb]uild
+*.class
+*.[wej]ar
+*.[ao]
+*.log
+*.exe
+*.out
+*.dll
+*.so
+*.dylib
+*.dynlib
+*.iml
+
+# IDE project files etc
+.classpath
+.factorypath
+.springBeans
+.project
+.settings
+.idea
+.gwt
+.metadata
+/.apt_generated/
+
+# Various editors tmp files
+# Do not include '.*' here; would disable .gitignore itself
+.#*
+.~*
+*~
+\#*
+~$*
+
+# User local settings
+environment.local.properties
+application-local.yml
+
+#Temps and old ones and backups
+*.versionsBackup
+*.releaseBackup
+/release.properties
+*.tmp
+*.bac
+*.bak
+*.temp
+tmp
+x.x*
+#Just to be on the safe side
+.svn
+
+
+# Packages #
+############
+# it's better to unpack these files and commit the raw source
+# git has its own built in compression methods
+*.7z
+*.dmg
+*.gz
+*.iso
+*.tar
+*.zip
+
+# OS specifics
+*.DS_Stor*
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+[Tt]humbs.db
+
+#vim swap files:
+.*\.swp
+
+# Terraform
+*.tfvars
+.terraform
+
+# OtherProjects which will be included later
+Algorithms
+DummyProject
+GroceryStore
+Java8
+Java17
+JavaCoreConcepts
+Payroll
+LibraryManagement
+Refactoring
+Spring-data
+SpringOAuth
